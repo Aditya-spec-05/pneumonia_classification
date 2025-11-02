@@ -7,7 +7,7 @@ from PIL import Image
 # Load the trained binary model
 @st.cache_resource
 def load_cnn_model():
-    model_path = r"C:\Users\User\Desktop\projects\pneumonia\best_pneumonia_model (1).h5"
+    model_path = r"D:\projects\pneumonia\models"
     model = load_model(model_path)
     return model
 
